@@ -1,0 +1,71 @@
+
+#main-container {
+  padding: 10px;
+  margin: 10px;
+}
+
+#form {
+  width: 280px;
+  height: 100px;
+}
+
+#form * {
+  margin-top: 10px;
+}
+
+#form > label {
+  width: 100px;
+
+  position: relative;
+  float: left;
+}
+
+#form > input {
+  position: relative;
+  float: left;
+}
+
+#display {
+  width: 400px;
+  height: 400px;
+
+  background-color: #a0a0a0;
+  margin-top: 40px;
+}
+
+#display > div {
+  height: 30%;
+
+  position: relative;
+  float: left;
+
+  margin-top: 35%;
+}
+
+#display > div:nth-child(1),
+#display > div:nth-child(3) {
+  width: 45%;
+}
+
+#display > div:nth-child(2) {
+  width: 10%;
+  text-align: center;
+  font-size: 80px;
+  padding-top: 4px;
+}
+
+#mins div:nth-child(1),
+#secs div:nth-child(1) {
+  width: 100%;
+
+  font-size: 100px;
+  text-align: center;
+}
+
+#mins div:nth-child(2),
+#secs div:nth-child(2) {
+  width: 100%;
+
+  font-size: 18px;
+  text-align: center;
+}

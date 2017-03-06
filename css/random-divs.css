@@ -1,0 +1,34 @@
+
+#main-container {
+  padding: 10px;
+  margin: 10px;
+}
+
+#zone-1,
+#zone-2 {
+  width: 500px;
+  height: 500px;
+
+  border: 1px solid #000;
+
+  display: block;
+  position: relative;
+  float: left;
+
+  overflow: hidden;
+}
+
+#zone-2 {
+  margin-left: 15px;
+}
+
+#zone-1 > div,
+#zone-2 > div {
+  width: 20px;
+  height: 20px;
+
+  position: absolute;
+  background-color: white;
+
+  transform-origin: center center;
+}
